@@ -1,0 +1,1 @@
+The purpose of Travel website project is to create a system that automates travel processes and events and to build a system that enables all travel-related operation to be carried out. Customers can easily register and book their tours.
