@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3444de5ddb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <img src="image/trip.jpeg" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#exclusive"> Packages</a></li>
+                <li><a href="#best" class="active">Popular Places</a></li>
+                
+                
+            </ul>
+            <a   href="#package" class="register-btn"> Register Now</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav> 
+        <div class="container" >
+            <h1>Find your next stay</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="Location-input" id="package">
+                        <label>Destination</label>
+                        <input type="text" placeholder="Where are you going?" id="placeName">
+                        
+                    </div>
+                    <div>
+                        <label>Arrival</label>
+                        <input type="date"  >
+                    </div>
+                    <div>
+                        <label>Departure</label>
+                        <input type="date" >
+                    </div>
+                    <div>
+                        <label>Guests</label>
+                        <input type="text" placeholder=" Add Guest">
+                    </div>
+                    <button id="submit"><img src="image/search icon.jpeg"></button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    
+
+    
+    <div class="container" id="exclusive">
+        <h2 class="sub-title">Exclusives</h2>
+        <div class="exclusives">
+            <div>
+                <img src="image/bali.jpeg">
+                <span> 
+                    <h3>Bali</h3>
+                    <p>Starts @ $250</p>
+                </span>
+
+            </div>
+            <div>
+                <img src="image/barcelonaimg.jpeg">
+                <span> 
+                    <h3>Barcelona</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/sydney.jpeg">
+                <span> 
+                    <h3>Sydney</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/newyork.jpeg">
+                <span> 
+                    <h3>New York</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/singa.jpeg">
+                <span> 
+                    <h3>Singapore</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/dubai1.webp">
+                <span> 
+                    <h3>Dubai</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/maldives1.jpeg">
+                <span> 
+                    <h3>Maldives</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div> <div>
+                <img src="image/paris.jpeg">
+                <span> 
+                    <h3>paris</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            
+            <div>
+                <img src="image/shanghai.jpeg">
+                <span> 
+                    <h3>Shanghai</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/London.jpeg">
+                <span> 
+                    <h3>London</h3>
+                    <p>Starts @ $250</p>
+                </span>
+            </div>
+            
+        </div>
+        <h2 class="sub-title" id="best">Best Places</h2>
+            <div class="best">
+                
+                <div>
+                    <img src="image/dubai1.webp">
+                    <h3>Dubai</h3>
+                </div>
+                
+                <div>
+                    <img src="image/delhi.jpeg">
+                    <h3>New Delhi</h3>
+                </div>
+                <div>
+                    <img src="image/maldives1.jpeg">
+                    <h3>Maldives</h3>
+                </div>
+                <div>
+                    <img src="image/paris.jpeg">
+                    <h3>paris</h3>
+                </div>
+                
+                
+            </div>
+
+        <div class="cta">
+            <h3>Extra Saving</h3>
+            <p>To Make Your Vacays Extra Fun!</p>
+            <a href="#" class="cta-btn">Know More</a>
+
+        </div>
+        <h2 class="sub-title">User Stories</h2>
+        <div class="Stories">
+            <div>
+                <img src="image/static1.jpg">
+                <p>Popular Asian Countries with a budget of just $20,000 </p>
+            </div>
+            <div>
+                <img src="image/thai.jpeg">
+                <p>It was awesome experience </p>
+            </div>
+            <div>
+                <img src="image/dubai1.webp">
+                <p>Best experience you get while you travel to Dubai</p>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <div class="text">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci dolorem quos ut facilis earum name <br>suscipit sint saepe id ipsum autem laudantium sit, dignissimos maiores eos eum praesentium fugiat accusamus.</p>
+
+            </div>
+            <div class="text">
+                <h3>Tour</h3>
+                <p>Quality</p>
+                <p>Price</p>
+                <p>Affordable</p>
+                <p>Exchange</p>
+            </div>
+            <div class="icon">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            
+            </div>
+        </div>
+    </div>
+<script>
+    var navBar = document.getElementById("navBar");
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+
+
+    }
+    let placeName = document.getElementById("placeName");
+let submit = document.getElementById("submit");
+
+submit.addEventListener("click", function(){
+    if(placeName.value== ""){
+        alert("Fill Form")
+    }else{
+        alert(placeName.value + " Tour Booked")
+    }
+})
+
+
+    
+    
+</script>
+
+   
+    
+</body>
+</html>
